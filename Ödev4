@@ -1,0 +1,22 @@
+Soru1
+SELECT DISTINCT replacement_cost
+FROM film;
+
+Soru2
+SELECT COUNT(*) replacement_cost
+FROM film;
+
+Soru3
+SELECT COUNT(title)
+FROM film 
+WHERE title LIKE 'T%' AND rating='G';
+
+Soru4
+SELECT COUNT(country)
+FROM country
+WHERE country LIKE '_____%';
+
+Soru5
+SELECT COUNT(title) 
+FROM film
+WHERE title LIKE '%R' or '%r';
